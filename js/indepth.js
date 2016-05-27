@@ -42,8 +42,7 @@ $("#indepth_boton_empezar").on("click",function(){
 	 ventana_alto = window.innerHeight ? window.innerHeight : $(window).height();
 	 
 	 var data = {
-				  
-  {
+
   "preguntas": [
     {
       "pregunta": "¿Dónde está el balón?",
