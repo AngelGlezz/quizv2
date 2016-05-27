@@ -68,7 +68,7 @@
 #juan{
 	width: 240px;
     max-width: 400px;
-    margin-bottom: -150px;
+    margin-bottom: -100px;
 }
 
 #indepth_tiempo_cont{
@@ -919,7 +919,11 @@
 		padding: 0 10px;
 		padding-top: 30px;
 		display: table;
-		
+	}
+
+	#juan {
+	    width: 150px;
+	    margin-bottom: -175px;
 	}
 
 	#dominos img {
@@ -1108,6 +1112,10 @@
 	
 	}
 
+	#juan {
+	    width: 150px;
+	    margin-bottom: -25px;
+	}
 
 	.indepth_lo_quiero_cont{
 		bottom: 60px;
