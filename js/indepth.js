@@ -42,550 +42,373 @@ $("#indepth_boton_empezar").on("click",function(){
 	 ventana_alto = window.innerHeight ? window.innerHeight : $(window).height();
 	 
 	 var data = {
-				  "preguntas": [
-				    {
-				      "pregunta": "¿Goleador de la actual temporada del América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Oribe Peralta",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Rubens Sambueza",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Darío Benedetto",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Darwin Quintero",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuál es la máxima goleada del América a Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "5 - 1",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "6 - 1",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "4 - 2",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "5 - 0",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Máximo anotador americanista frente a Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Zague",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Alberto Aspe",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Enrique Borja",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Cuauhtémoc Blanco",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Jugador que falló un penal en la última final disputada por Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Javier Cortés",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Matías Britos",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Fidel Martínez",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Luis Fuentes",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Jugador más ganador con Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Alejandro Palacios",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Sergio Bernal",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Darío Verón",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "David Cabrera",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuántas finales de Liga MX han disputado América-Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "0",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "1",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "4",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "3",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Delanteros que jugaron para Pumas y América",
-				      "respuestas": [
-				        {
-				          "respuesta": "Ismael Sosa y Antonio de Nigris",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Zague y Antonio Carlos Santos",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Hugo Sánchez y Luis García",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Enrique Borja y Joaquín Botero",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Qué jugador consiguió ocho títulos de goleo con Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Enrique Borja",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Cabinho",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Hugo Sánchez",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Juan José Muñante",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuántos campeonatos de Liga MX tiene el América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "10",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "9",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "13",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "12",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Actual entrenador del América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Miguel Herrera",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Guillermo Vázquez",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Nacho Ambriz",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Carlos Reinoso",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Quién fue el último jugador de Pumas que le anotó al América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Ismael Sosa",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Eduardo Herrera",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Gerardo Alcoba",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Javier Cortés",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Famoso arquero que debutó como delantero en Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Jorge Campos",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Sergio Bernal",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Alfredo Saldívar",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Alejandro Palacios",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuántas veces Pumas ha terminado como líder de la Liga Mx?",
-				      "respuestas": [
-				        {
-				          "respuesta": "2",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "5",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "4",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "1",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuál es el récord de goles anotados por Pumas en torneo regular corto?",
-				      "respuestas": [
-				        {
-				          "respuesta": "32",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "35",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "29",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "33",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Portero que jugó para Pumas y América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Jorge Campos",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Guillermo Ochoa",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Armando Navarrete",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Adolfo Ríos",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuántos puntos lleva el América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "20",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "30",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "25",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "28",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Quién metió el gol de la victoria para Pumas en la final de 1991?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Miguel España",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Manuel Negrete",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Ricardo Ferretti",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Jorge Campos",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuál fue el marcador global de su último enfrentamiento en Liguilla?",
-				      "respuestas": [
-				        {
-				          "respuesta": "América 5-2 Pumas",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Pumas 3-1 América",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Pumas 4-2 América",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Pumas 4-3 América",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuál es la mayor cantidad de goles anotada en un Pumas vs. América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "5",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "6",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "7",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "4",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Actual jugador del América que militó en Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Oribe Peralta",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Moisés Muñoz",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Paolo Goltz",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Rubens Sambueza",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Jugador en activo de Pumas que más goles le ha anotado al América?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Javier Cortés",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Darío Verón",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Daniel Ludueña",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Eduardo Herrera",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Actual entrenador de Pumas?",
-				      "respuestas": [
-				        {
-				          "respuesta": "Ricardo Ferretti",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Ignacio Ambriz",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Miguel España",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Guillermo Vázquez Jr",
-				          "tipo": "true"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuántos goles lleva Ismael Sosa en el torneo?",
-				      "respuestas": [
-				        {
-				          "respuesta": "10",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "5",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "4",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "8",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuántos títulos tiene Pumas en la Liga MX?",
-				      "respuestas": [
-				        {
-				          "respuesta": "7",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "8",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "6",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "10",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "¿Cuántos goles lleva Darwin Quintero en el torneo?",
-				      "respuestas": [
-				        {
-				          "respuesta": "5",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "3",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "6",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "4",
-				          "tipo": "false"
-				        }
-				      ]
-				    }
-				  ]
-				};
+				  
+  "preguntas": [
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    }
+  ]
+};
 		  preguntas=data.preguntas;
 		 
 		 $("#indepth_pregunta_cont").html("");
 		 
 		 $.each(preguntas, function( i, item ) {
 			 
-			var div=' <div class="indepth_pregunta_item"><div class="indepth_pregunta">'+(i+1)+'- '+item.pregunta+'</div><div class="indepth_pregunta_main"><div class="indepth_pregunta_img"><img src="'+urlIndepth+'images/preguntas/'+(i+1)+'.jpg" /></div><div class="indepth_respuestas_cont" num="'+i+'">';
+			var div=' <div class="indepth_pregunta_item"><div class="indepth_pregunta">'+(i+1)+'- '+item.pregunta+'</div><div class="indepth_pregunta_main"><div class="indepth_pregunta_img"><img src="'+urlIndepth+'images/preguntas/'+(i+1)+'.png" /></div><div class="indepth_respuestas_cont" num="'+i+'">';
 				
 			var div_items="";
 			$.each(item.respuestas, function( j, items ) {
-				div_items+='<div class="indepth_respuesta_item active" num="'+j+'">'+items.respuesta+'</div>';
+				div_items+='<div class="indepth_respuesta_item active" num="'+j+'"><img src="images/boton/'+items.respuesta+'.png"></div>';
 			});						
 										
 			var div_fin='</div></div></div>';
 			 
 			 $("#indepth_pregunta_cont").append(div+div_items+div_fin);			 
+		 });
+
+		 $(".indepth_respuesta_item").click(function(){
+		 		var content = parseInt($(".indepth_pregunta_item").css("height"));
+		 		var margin = parseInt($(".indepth_pregunta_item").css("margin-bottom"));
+		 		var padding = parseInt($(".indepth_pregunta_item").css("padding-top"));
+				var mov = content + margin + padding;
+				$(".indepth_pregunta_item").animate({"top": "-="+mov+"px"}, "slow");
 		 });
 		 
 		 $("#indepth_page1").css({
@@ -698,27 +521,22 @@ function finish_test(){
 
   	if(aciertos<=5){
 	  	aficionado="";
-	  	msg="¡Cuídate! La Rebel y la Monu se unieron para abuchearte y eso está peligroso…";
+	  	msg="Retírate… no traes nivel ni de balonero. Qué vergüenza";
   	}
   	
   	if(aciertos>=6 &&aciertos<=10){
 	  	aficionado="";
-	  	msg="Ni Daniel Bilos fue tan petardo en el futbol mexicano como tú...";
+	  	msg="aún te falta… ni ser hijo de Zidane te daría magia para encontrar el balón.";
   	}
 
   	if(aciertos>=11 && aciertos<=15){
 	  	aficionado="";
-	  	msg="no estuvo tan mal. Al menos tuviste más oportunidad que Emanuel Villa con Pumas...";
+	  	msg="¡Hasta pareces aficionado del Cholo! Con tantitas ganas, tuviste";
   	}
 
-  	if(aciertos>=16 && aciertos<=20){
+  	if(aciertos>=16){
 	  	aficionado="";
-	  	msg="¡Estás cerca de la grandeza! Miguel Herrera o Hugo Sánchez estarían orgullosos de ti";
-  	}
-  	
-  	if(aciertos>=21){
-	  	aficionado="";
-	  	msg="Cabinho y Cuauhtémoc Blanco se quedan cortos... ¡Eres el más grande en la historia de Pumas o América!";
+	  	msg="¡El superliderato no te da miedo! ¡El Turco estaría orgulloso de ti!";
   	}
   	
   	$("#indepth_aciertos").html(aciertos);
