@@ -66,9 +66,9 @@
 }
 
 #juan{
-	width: 400px;
+	width: 240px;
     max-width: 400px;
-    margin-bottom: 0px;
+    margin-bottom: -150px;
 }
 
 #indepth_tiempo_cont{
@@ -681,10 +681,7 @@
 }
 
 @media (max-width: 900px) {
-	#juan {
-    	width: 400px;
-	}
-
+	
 	.indepth_pregunta_img{
 		width: 500px;
     	height: 335px;
@@ -704,17 +701,7 @@
 	}	
 }
 
-@media (max-width: 800px) {
-	#juan {
-    	width: 400px;
-	}
-}
-
 @media (max-width: 700px) {
-	#juan {
-    	width: 400px;
-	}
-
 	.indepth_pregunta_img{
 		width: 450px;
     	height: 305px;
@@ -730,10 +717,6 @@
 }
 
 @media (max-width: 600px) {
-	#juan {
-    	width: 400px;
-	}
-
 	.indepth_pregunta_img{
 		width: 400px;
     	height: 305px;
@@ -745,10 +728,7 @@
 }
 
 @media (max-width: 500px) {
-	#juan {
-    	width: 400px;
-	}
-
+	
 	.indepth_pregunta_img {
 	    width: 300px;
 	    height: 205px;
@@ -924,12 +904,6 @@
 	    padding: 10px;
 	}
 
-	#juan {
-	    width: 400px;
-	    max-width: 600px;
-	    margin-bottom: 0px;
-	}
-
 }
 
 @media screen and (max-width: 400px) {
@@ -980,12 +954,6 @@
 	.indepth_cuadro_text{
 		height: 25px;
 		line-height: 25px;
-	}
-
-	#juan {
-	    width: 374px;
-	    max-width: 600px;
-	    margin-bottom: 0px;
 	}
 
 	.indepth_respuesta_item img{
@@ -1104,12 +1072,6 @@
     	font-size: 12px;
 	}
 
-	#juan {
-	    width: 370px;
-	    max-width: 600px;
-	    margin-bottom: 0px;
-	}
-
 }
 
 @media screen and (max-height: 750px) {
@@ -1128,11 +1090,6 @@
 		height: auto;
 		max-width: 200px;
 		margin-bottom: 25px;
-	}
-	
-	#juan{
-		max-width: 310px;
-		margin-bottom: 20px;
 	}
 }
 
@@ -1181,11 +1138,6 @@
 
 	.indepth_pregunta{
 		font-size: 22px;
-	}
-
-	#juan{
-		width: 320px;
-		margin-bottom: 10px;
 	}
 		
 	#logo_dominos{
