@@ -613,13 +613,17 @@
 }
 
 .indepth_result_cont{
-	width: 645px;
-	height: 215px;
-	margin: auto;
-	display: table;
-	background-image: url(../images/marco_dominos.png);
-	background-repeat: no-repeat;
-}
+		width: 644px;
+		height: 105px;
+		margin: auto;
+		background-image: url(../images/marco_dominos.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 644px 100%;
+		padding: 0 20px;
+		padding-top: 30px;
+		display: table;
+	}
 
 #indepth_return{
 	width: 30px;
@@ -821,7 +825,7 @@
 	
 	.indepth_result_cont{
 		width: 450px;
-		height: 210px;
+		height: 105px;
 		margin: auto;
 		background-image: url(../images/marco_dominos.png);
 		background-repeat: no-repeat;
@@ -830,7 +834,6 @@
 		padding: 0 20px;
 		padding-top: 30px;
 		display: table;
-		
 	}
 	
 	.indepth_pronostico_cont{

@@ -531,7 +531,7 @@ function finish_test(){
 
   	if(aciertos>=11 && aciertos<=15){
 	  	aficionado="";
-	  	msg="¡Hasta pareces aficionado del Cholo! Con tantitas ganas, tuviste";
+	  	msg="¡Hasta pareces aficionado del Cholo! Con tantitas ganas";
   	}
 
   	if(aciertos>=16){
