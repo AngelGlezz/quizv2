@@ -614,12 +614,12 @@
 
 .indepth_result_cont{
 		width: 644px;
-		height: 130px;
+		height: 155px;
 		margin: auto;
 		background-image: url(../images/marco_dominos.png);
 		background-repeat: no-repeat;
 		background-position: center top;
-		background-size: 644px 100%;
+		background-size: 643px 186px;
 		padding: 0 20px;
 		padding-top: 30px;
 		display: table;
@@ -1101,6 +1101,11 @@
 
 	.indepth_result_cont {
 		background-image: url(../images/dominos_cuadro.png);
+		background-size: 643px 135px;
+		height: 105px;
+	}
+	.indepth_pronostico_cont {
+	    margin: 15px auto;
 	}
 }
 
