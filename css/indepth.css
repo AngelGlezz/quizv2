@@ -614,7 +614,7 @@
 
 .indepth_result_cont{
 		width: 644px;
-		height: 105px;
+		height: 130px;
 		margin: auto;
 		background-image: url(../images/marco_dominos.png);
 		background-repeat: no-repeat;
@@ -1097,6 +1097,10 @@
 		height: auto;
 		max-width: 200px;
 		margin-bottom: 25px;
+	}
+
+	.indepth_result_cont {
+		background-image: url(../images/dominos_cuadro.png);
 	}
 }
 
