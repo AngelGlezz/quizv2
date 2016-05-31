@@ -65,125 +65,6 @@ $("#indepth_boton_empezar").on("click",function(){
       "respuestas": [
         {
           "respuesta": "a",
-          "tipo": "true"
-        },
-        {
-          "respuesta": "b",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "c",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "¿Dónde está el balón?",
-      "respuestas": [
-        {
-          "respuesta": "a",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "b",
-          "tipo": "true"
-        },
-        {
-          "respuesta": "c",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "¿Dónde está el balón?",
-      "respuestas": [
-        {
-          "respuesta": "a",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "b",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "c",
-          "tipo": "true"
-        }
-      ]
-    },
-    {
-      "pregunta": "¿Dónde está el balón?",
-      "respuestas": [
-        {
-          "respuesta": "a",
-          "tipo": "true"
-        },
-        {
-          "respuesta": "b",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "c",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "¿Dónde está el balón?",
-      "respuestas": [
-        {
-          "respuesta": "a",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "b",
-          "tipo": "true"
-        },
-        {
-          "respuesta": "c",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "¿Dónde está el balón?",
-      "respuestas": [
-        {
-          "respuesta": "a",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "b",
-          "tipo": "true"
-        },
-        {
-          "respuesta": "c",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "¿Dónde está el balón?",
-      "respuestas": [
-        {
-          "respuesta": "a",
-          "tipo": "true"
-        },
-        {
-          "respuesta": "b",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "c",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "¿Dónde está el balón?",
-      "respuestas": [
-        {
-          "respuesta": "a",
           "tipo": "false"
         },
         {
@@ -227,6 +108,108 @@ $("#indepth_boton_empezar").on("click",function(){
         {
           "respuesta": "c",
           "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "true"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "b",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
         }
       ]
     },
@@ -307,6 +290,23 @@ $("#indepth_boton_empezar").on("click",function(){
         },
         {
           "respuesta": "b",
+          "tipo": "true"
+        },
+        {
+          "respuesta": "c",
+          "tipo": "false"
+        }
+      ]
+    },
+    {
+      "pregunta": "¿Dónde está el balón?",
+      "respuestas": [
+        {
+          "respuesta": "a",
+          "tipo": "false"
+        },
+        {
+          "respuesta": "b",
           "tipo": "false"
         },
         {
@@ -320,7 +320,7 @@ $("#indepth_boton_empezar").on("click",function(){
       "respuestas": [
         {
           "respuesta": "a",
-          "tipo": "true"
+          "tipo": "false"
         },
         {
           "respuesta": "b",
@@ -328,7 +328,7 @@ $("#indepth_boton_empezar").on("click",function(){
         },
         {
           "respuesta": "c",
-          "tipo": "false"
+          "tipo": "true"
         }
       ]
     },
@@ -698,7 +698,7 @@ $("#indepth_twittear").click(function(){
 	if(!disable){
 
 		
-		var text = encodeURIComponent("Mi predicción es: Monterrey "+$("input[name=goleador]").val()+"-"+$("input[name=goleador2]").val())+ " Pachuca primer gol al minuto "+$("input[name=goles_anotados]").val()+" @juanfutbol";
+		var text = encodeURIComponent("Mi predicción es: México "+$("input[name=goleador]").val()+"-"+$("input[name=goleador2]").val())+ " Chile primer gol al minuto "+$("input[name=goles_anotados]").val()+" @juanfutbol";
 		var url = encodeURIComponent("http://juanfutbol.com/indepth/");
 		window.open("https://twitter.com/share?text="+text+"&hashtags=juanpizza&url="+url,"","width=500, height=300");
 
