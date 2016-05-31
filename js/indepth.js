@@ -521,22 +521,22 @@ function finish_test(){
 
   	if(aciertos<=5){
 	  	aficionado="";
-	  	msg="Retírate… no traes nivel ni de balonero. Qué vergüenza";
+	  	msg="Retírate… no traes nivel ni de balonero. Qué vergüenza.";
   	}
   	
   	if(aciertos>=6 &&aciertos<=10){
 	  	aficionado="";
-	  	msg="aún te falta… ni ser hijo de Zidane te daría magia para encontrar el balón.";
+	  	msg="Aún te falta… ni ser hijo de Layún te daría magia para encontrar el balón.";
   	}
 
   	if(aciertos>=11 && aciertos<=15){
 	  	aficionado="";
-	  	msg="¡Hasta pareces aficionado del Cholo! Con tantitas ganas";
+	  	msg="¡Hasta pareces aficionado de Osorio! Con tantitas ganas.";
   	}
 
   	if(aciertos>=16){
 	  	aficionado="";
-	  	msg="¡El superliderato no te da miedo! ¡El Turco estaría orgulloso de ti!";
+	  	msg="¡Ni Brasil ni Argentina te dan miedo! ¡Cuauhtémoc estaría orgulloso de ti!";
   	}
   	
   	$("#indepth_aciertos").html(aciertos);
