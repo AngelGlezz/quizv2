@@ -395,7 +395,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				
 			var div_items="";
 			$.each(item.respuestas, function( j, items ) {
-				div_items+='<div class="indepth_respuesta_item active" num="'+j+'"><img src="images/boton/'+items.respuesta+'.png"></div>';
+				div_items+='<div class="indepth_respuesta_item active" num="'+j+'"><img src="'+urlIndepth+'images/boton/'+items.respuesta+'.png"></div>';
 			});						
 										
 			var div_fin='</div></div></div>';
@@ -699,7 +699,7 @@ $("#indepth_twittear").click(function(){
 
 		
 		var text = encodeURIComponent("Mi predicción es: México "+$("input[name=goleador]").val()+"-"+$("input[name=goleador2]").val())+ " Chile primer gol al minuto "+$("input[name=goles_anotados]").val()+" @juanfutbol";
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/");
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/pizzafut-seleccion-mexicana");
 		window.open("https://twitter.com/share?text="+text+"&hashtags=juanpizza&url="+url,"","width=500, height=300");
 
 	}else{
